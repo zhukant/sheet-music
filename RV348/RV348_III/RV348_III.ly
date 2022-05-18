@@ -6,7 +6,7 @@
 \include "RV348_III_V3.ly"
 \include "RV348_III_VA.ly"
 \include "RV348_III_BC.ly"
-\include "RV348_III_FB.ly"
+\include "RV348_FB.ly"
 
 global = {
 	\time 12/8
