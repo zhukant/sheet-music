@@ -3,6 +3,8 @@
 
 \include "RV348_I_V1.ly"
 \include "RV348_I_V2.ly"
+\include "RV348_I_V3.ly"
+\include "RV348_I_AV.ly"
 
 global = {
   \time 4/4
@@ -17,8 +19,10 @@ global = {
 
 \score {
   \new StaffGroup <<
-    \ViolinOne
-    \ViolinTwo
+    \ViolinoPrimo
+    \ViolinoSecondo
+    \ViolinoTerzo
+    \AltoViola
   >>
   \layout { }
 }

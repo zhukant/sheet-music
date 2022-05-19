@@ -1,4 +1,4 @@
-ViolinTwo = \new Staff {
+ViolinoSecondo = \new Staff {
   \time 4/4
   \key a \major
   \relative c''' {
@@ -122,7 +122,11 @@ ViolinTwo = \new Staff {
 
     \compressMMRests R1*1
 
-    r2 a''8 gs16 fs e d cs b |
+    r2 \bar "||"
+
+    % This section is completely missing in the Michel-Charles le Cene 1727 manuscript
+
+      a''8 gs16 fs e d cs b |
     a8 e a,4 cs'16( d e fs g4) |
     fs8 d, r4 b''8 a16 gs fs e ds cs |
     b8 fs b,4 ds'16( e fs gs a4) |

@@ -1,4 +1,4 @@
-ViolinOne = \new Staff {
+ViolinoPrimo = \new Staff {
   \time 4/4
   \key a \major
   \relative c''' {
@@ -164,7 +164,7 @@ ViolinOne = \new Staff {
     gs[( fs) e] } a a, b4 \trill a r8 e, |
     \tuplet 3/2 8 { fs16[( e) d] gs[( fs) e] a[( gs) fs] b[( a) gs]
       cs[( b) a] d[( cs) b] e[( d) cs] fs[( e) d] |
-    gs[( fs) e] } a a, << { b8. \trill a16 } \\ { e4 } >>
+    gs[( fs) e] } a a, << { b8. \trill a16 } \\ { e4 } >> \bar "||"
 
     % This section is completely missing in the Michel-Charles le Cene 1727 manuscript
 
