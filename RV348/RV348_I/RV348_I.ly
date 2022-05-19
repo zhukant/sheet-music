@@ -6,7 +6,7 @@
 \include "RV348_I_V3.ly"
 \include "RV348_I_AV.ly"
 \include "RV348_I_OV.ly"
-%\include "RV348_I_FB.ly"
+\include "RV348_I_FB.ly"
 
 global = {
   \time 4/4
@@ -26,7 +26,7 @@ global = {
     \ViolinoTerzo
     \AltoViola
     \OrganoVioloncello
-    %\FiguredBass
+    \FiguredBassPart
   >>
   \layout { }
 }
