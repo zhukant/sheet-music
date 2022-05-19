@@ -126,7 +126,7 @@ ViolinoSecondo = \new Staff {
 
     % This section is completely missing in the Michel-Charles le Cene 1727 manuscript
 
-      a''8 gs16 fs e d cs b |
+      a''8 \f gs16 fs e d cs b |
     a8 e a,4 cs'16( d e fs g4) |
     fs8 d, r4 b''8 a16 gs fs e ds cs |
     b8 fs b,4 ds'16( e fs gs a4) |

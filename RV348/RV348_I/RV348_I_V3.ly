@@ -127,7 +127,7 @@ ViolinoTerzo = \new Staff {
     % This section is completely missing in the Michel-Charles le Cene 1727 manuscript
 
     r2 |
-    a''8 gs16 fs e d cs b a8 e a,4 |
+    a''8 \f gs16 fs e d cs b a8 e a,4 |
     d'16( e fs g a4) r2 |
     b8 a16 gs fs e ds cs b8 fs b,4 |
     e'16( fs gs a b4) a16( gs fs e) b'4 |
