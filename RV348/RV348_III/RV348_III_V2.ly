@@ -1,5 +1,8 @@
+\version "2.20.0"
+\language "english"
+
 ViolinTwo = \new Staff {
-    \time 12/8
+  \time 12/8
   \key a \major
   \relative c'' {
     \tempo "Allegro non Molto"
@@ -25,7 +28,7 @@ ViolinTwo = \new Staff {
     cs'4 r8 b4 r8 a4. r4 r8 |
 
     % 10 Measure Rest
-    \compressFullBarRests R1.*10
+    \compressMMRests R1.*10
 
     e8\p b' a gs fs e a e' d cs b a |
     a, e' d cs b a b b' a gs fs e |
@@ -81,7 +84,7 @@ ViolinTwo = \new Staff {
     e4. ds cs r4 r8 |
 
     % 4 Measure Rest
-    \compressFullBarRests R1.*4
+    \compressMMRests R1.*4
 
     r2. b,4\p r8 b4 r8 |
     cs gs' fs es ds cs fs cs' b a gs fs |

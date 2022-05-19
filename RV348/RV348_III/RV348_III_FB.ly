@@ -1,3 +1,6 @@
+\version "2.20.0"
+\language "english"
+
 FiguredBass Part = \figures {
   \time 12/8
 

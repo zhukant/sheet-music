@@ -1,3 +1,6 @@
+\version "2.20.0"
+\language "english"
+
 BassoContinuo = \new Staff {
   \clef bass
   \time 12/8
@@ -38,7 +41,7 @@ BassoContinuo = \new Staff {
     a,4. r4 r8 e'4. r4 r8 |
     a,4. r4 r8 e'4. r4 r8 |
 
-    \compressFullBarRests R1.*4 |
+    \compressMMRests R1.*4 |
 
     % Tutti
     r2. e4_"Tutti" r8 e4 r8 |
@@ -69,7 +72,7 @@ BassoContinuo = \new Staff {
                      fs,4 r8 cs'4 r8 |
     fs,4. r4 r8 r2. |
 
-    \compressFullBarRests R1.*18
+    \compressMMRests R1.*18
 
     cs'4_"Tutti" r8 cs4 r8 cs4 r8 cs4 r8 |
     cs gs' fs e ds cs cs4 r8 gs'4 r8 |
@@ -88,7 +91,7 @@ BassoContinuo = \new Staff {
     gs4. r4 r8 fs4. fs |
     gs8 ds' cs b as gs r2. |
 
-    \compressFullBarRests R1.*12
+    \compressMMRests R1.*12
 
     a,4_"Tutti" r8 a4 r8 e'4 r8 a,4 r8 |
     a4 r8  e'4 r8 a4 r8 a,4 r8 |
@@ -96,15 +99,15 @@ BassoContinuo = \new Staff {
     cs'4 r8 a4 r8 fs4 r8 ds4 r8 |
     e4. r4 r8 r2. |
 
-    \compressFullBarRests R1.*10
+    \compressMMRests R1.*10
 
     \key a \minor
 
-    \compressFullBarRests R1.*12
+    \compressMMRests R1.*12
 
     \key a \major
 
-    \compressFullBarRests R1.*3
+    \compressMMRests R1.*3
 
     r2. a,4_"Tutti" r8 a4 r8 |
     d4 r8 d,4 r8 ds'4 r8 b4 r8 |

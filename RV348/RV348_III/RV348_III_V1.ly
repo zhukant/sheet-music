@@ -1,3 +1,6 @@
+\version "2.20.0"
+\language "english"
+
 ViolinOne = \new Staff {
 	\time 12/8
 	\key a \major

@@ -1,3 +1,6 @@
+\version "2.20.0"
+\language "english"
+
 Viola = \new Staff {
   \clef alto
   \time 12/8
@@ -27,7 +30,7 @@ Viola = \new Staff {
     e'4 r8 e4 r8  cs4. r4 r8 |
 
     % 14 Measure Rest
-    \compressFullBarRests R1.*14
+    \compressMMRests R1.*14
 
     r2. b4 r8 b4 r8 |
     ds4 r8 b4 r8 b4 r8 ds4 r8 |
@@ -77,7 +80,7 @@ Viola = \new Staff {
     gs'4. gs e r4 r8 |
 
     % 4 Measure Rest
-    \compressFullBarRests R1.*4
+    \compressMMRests R1.*4
 
     r2. b4\p r8 b4 r8 |
     cs gs' fs es ds cs fs cs' b a gs fs |
@@ -101,7 +104,7 @@ Viola = \new Staff {
     b,4. r4 r8 r2. |
 
     % 10 Measure Rest
-    \compressFullBarRests R1.*10
+    \compressMMRests R1.*10
 
     % Key Change
     \key a \minor
