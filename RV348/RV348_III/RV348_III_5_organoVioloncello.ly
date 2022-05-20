@@ -1,7 +1,7 @@
 \version "2.20.0"
 \language "english"
 
-BassoContinuo = \new Staff {
+organoVioloncello = \new Staff = "continuo" {
   \clef bass
   \time 12/8
   \key a \major

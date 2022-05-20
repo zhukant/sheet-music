@@ -1,11 +1,10 @@
 \version "2.20.0"
 \language "english"
 
-OrganoVioloncello = \new Staff {
-  \clef bass
+violinoTerzo = \new Staff {
   \time 4/4
   \key a \major
-  \relative c {
+  \relative c'' {
     \tempo "Largo"
-  }
+ }
 }

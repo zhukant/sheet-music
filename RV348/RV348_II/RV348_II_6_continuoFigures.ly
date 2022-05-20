@@ -1,6 +1,6 @@
 \version "2.20.0"
 \language "english"
 
-FiguredBassPart = \figures {
+continuoFigures = \figuremode {
   \time 4/4
 }

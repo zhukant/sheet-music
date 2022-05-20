@@ -1,7 +1,7 @@
 \version "2.20.0"
 \language "english"
 
-Viola = \new Staff {
+altoViola = \new Staff {
   \clef alto
   \time 12/8
   \key a \major

@@ -1,12 +1,12 @@
 \version "2.20.0"
 \language "english"
 
-\include "RV348_I_V1.ly"
-\include "RV348_I_V2.ly"
-\include "RV348_I_V3.ly"
-\include "RV348_I_AV.ly"
-\include "RV348_I_OV.ly"
-\include "RV348_I_FB.ly"
+\include "RV348_I_1_violinoPrimo.ly"
+\include "RV348_I_2_violinoSecondo.ly"
+\include "RV348_I_3_violinoTerzo.ly"
+\include "RV348_I_4_altoViola.ly"
+\include "RV348_I_5_organoVioloncello.ly"
+\include "RV348_I_6_continuoFigures.ly"
 
 global = {
   \time 4/4
@@ -21,12 +21,12 @@ global = {
 
 \score {
   \new StaffGroup <<
-    \ViolinoPrimo
-    \ViolinoSecondo
-    \ViolinoTerzo
-    \AltoViola
-    \OrganoVioloncello
-    \FiguredBassPart
+    \violinoPrimo
+    \violinoSecondo
+    \violinoTerzo
+    \altoViola
+    \organoVioloncello
+    \context Staff = "continuo" \continuoFigures
   >>
   \layout { }
 }
