@@ -118,6 +118,6 @@ altoViola = \new Staff {
     a8 a r a16 gs a8 a r a16 gs |
     a4 a8 gs16 fs e8 a, e'4 \trill |
     a8 e a,4 a'8 e a,4 |
-    a'8 e a,4 \bar "|."
+    a'8 e a,4 \bar "||"
   }
 }

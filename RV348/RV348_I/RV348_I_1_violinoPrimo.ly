@@ -185,6 +185,6 @@ violinoPrimo = \new Staff {
     e8 cs16 a cs a cs a fs'8 fs16 d fs d fs d |
     e4 a8 gs16 fs e8 a, b4 \trill |
     a8 e a,4 a'8 e a,4 |
-    a'8 e a,4 \bar "|."
+    a'8 e a,4 \bar "||"
   }
 }

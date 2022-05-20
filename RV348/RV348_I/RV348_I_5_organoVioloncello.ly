@@ -107,6 +107,6 @@ organoVioloncello = \new Staff = "continuo" {
     r a'16 gs a8 a, r d'16 cs d8 d, |
     a4 a'8 gs16 fs e8 a, e'4 |
     a8 e a,4 a'8 e a,4 |
-    a'8 e a,4 \bar "|."
+    a'8 e a,4 \bar "||"
   }
 }

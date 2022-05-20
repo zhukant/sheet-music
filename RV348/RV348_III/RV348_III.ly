@@ -15,6 +15,7 @@ global = {
 
 \header {
 	title = "Violin Concerto in A major, RV 348"
+	subtitle = "Concerto VI, Movement III"
 	composer = "Antonio Vivaldi"
 }
 
