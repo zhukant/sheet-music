@@ -23,7 +23,7 @@ global = {
 	\new StaffGroup <<
 		\violinoPrimo
 		\violinoSecondo
-		\violinoSecondo
+		\violinoTerzo
 		\altoViola
 		\organoVioloncello
 		\context Staff = "continuo" \continuoFigures
