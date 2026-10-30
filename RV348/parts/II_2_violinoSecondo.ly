@@ -1,7 +1,7 @@
-\version "2.20.0"
+\version "2.26.0"
 \language "english"
 
-violinoSecondo = \new Staff {
+violinoSecondoII = \new Staff {
   \time 4/4
   \key a \major
   \relative c'' {

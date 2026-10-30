@@ -1,7 +1,7 @@
-\version "2.20.0"
+\version "2.26.0"
 \language "english"
 
-continuoFigures = \figuremode {
+continuoFiguresIII = \figuremode {
   \time 12/8
   
   s1.
